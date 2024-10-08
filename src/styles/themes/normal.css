@@ -1,0 +1,7 @@
+:root {
+    --bg-color: black;
+    --inverted-bg-color: white;
+    --primary-color: black;
+    --secondary-color: #d55140; 
+    --primary-color-transparent: rgba(0, 0, 0, 0.3)
+}

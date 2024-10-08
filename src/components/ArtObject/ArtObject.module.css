@@ -1,0 +1,24 @@
+.ArtObject{
+    width: auto;
+    max-width: 450px;
+    height: auto;
+}
+
+.ArtObjectPreview {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.ArtObjectPreview:hover{
+    box-shadow: var(--primary-color-transparent) 0px 3px 12px;
+}
+
+@media (max-width: 450px) {
+    .ArtObject {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
